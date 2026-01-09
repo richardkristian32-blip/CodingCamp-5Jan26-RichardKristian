@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List - RichardKristian</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header><h1>Todo List</h1></header>
+        <main>
+        <!-- section1 -->
+            <section>
+                <form id="todo-form">
+                    <input type="text" id="todo-input" placeholder="Add a new task..." required>
+                    <input type="date" id="date-input" placeholder="Add a new task..." required>
+                    <button type="submit">+</button>
+                </form>
+            </section>
+            <br><br> <!-- section2 -->
+            <section>
+                <button class="Filter">Filter</button>
+                <button class="Delete">Delete all</button>
+            </section>
+            <section> <!-- section3 -->
+                <table>
+                    <header>
+                        <tr id="header-form">
+                            <th id="task">Task</th>
+                            <th id="due-date">Due Date</th>
+                            <th id="status">Status</th>
+                            <th id="action">Action</th>
+                    </tr>
+                    </header>
+                    <tr id="todo-list">
+                        <td id="task">Task</th>
+                        <td id="due-date">Due Date</th>
+                        <td id="status">Status</th>
+                        <td id="action">Action</th>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>© 2026 RichardKristian's Todo List</p>
+        </footer>
+    </div>
+</body>
+</html>
